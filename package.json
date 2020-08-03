@@ -4,7 +4,7 @@
   "description": "A rock-solid loading spinner",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/erikhofer/liquid-loading/issues"
   },
-  "homepage": "https://github.com/erikhofer/liquid-loading#readme"
+  "homepage": "https://github.com/erikhofer/liquid-loading#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0"
+  }
 }
