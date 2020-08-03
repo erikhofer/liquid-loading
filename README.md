@@ -10,4 +10,4 @@
 
 ## License
 
-This is a wrapper around [this CodePen](https://codepen.io/ainalem/pen/eYmGLyp) by Mikael Ainalem. It is thus published under the original [license](https://github.com/erikhofer/liquid-loading/blob/master/LICENSE).
+This is a wrapper around [a CodePen project](https://codepen.io/ainalem/pen/eYmGLyp) by Mikael Ainalem. It is thus published under the original [license](https://github.com/erikhofer/liquid-loading/blob/master/LICENSE).
