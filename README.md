@@ -8,6 +8,41 @@
   <a href="https://erikhofer.github.io/liquid-loading/">Demo</a>
 </p>
 
+## Usage
+
+This is a Web Component. Just install and import it, somewhere in your app.
+
+```
+npm install liquid-loading
+```
+
+### Example with React (with TypeScript support)
+
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+import "liquid-loading";
+
+ReactDOM.render(
+  <liquid-loading></liquid-loading>,
+  document.getElementById("root")
+);
+```
+
+### Example with plain HTML
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/liquid-loading"></script>
+  </head>
+  <body>
+    <liquid-loading></liquid-loading>
+  </body>
+</html>
+```
+
 ## License
 
 This is a wrapper around [a CodePen project](https://codepen.io/ainalem/pen/eYmGLyp) by Mikael Ainalem. It is thus published under the original [license](https://github.com/erikhofer/liquid-loading/blob/master/LICENSE).
